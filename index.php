@@ -1,7 +1,10 @@
 <?php
 require __DIR__."/vendor/autoload.php";
+use App\Controller\ProductController;
+$test = null;
+$test = new ProductController();
+$test->viewAllProduct();
 
-$test = new \App\Model\ProductManager();
-$productstest = $test->getAllProduct();
-echo "<pre>";
+
+
 
